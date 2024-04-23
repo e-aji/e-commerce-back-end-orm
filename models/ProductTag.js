@@ -20,13 +20,13 @@ ProductTag.init(
         key: 'id',
       },
     },
-    address: {
-      type: DataTypes.STRING,
-      references: {
-        model: 'tag',
-        key: 'id',
-      },
-    },
+    // address: {
+    //   type: DataTypes.STRING,
+    //   references: {
+    //     model: 'tag',
+    //     key: 'id',
+    //   },
+    // },
   },
   {
     sequelize,
