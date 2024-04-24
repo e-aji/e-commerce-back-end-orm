@@ -2,16 +2,14 @@
 
 ## Description 
 
-The aim of this project is to create a back-end for an e-commerce site. 
+The aim of this project is to create a back-end for an e-commerce site. This attchached video link demonstrates the workings and functionality of the e-commerce back end that was configured with Express.js API and the use of Sequelize to interact with a PostgreSQL database.  
 
 ## Table of Contents 
 
 * [Criteria](#criteria)
 * [Usage](#usage)
 * [Built With](#built-with)
-* [Images](#images)
 * [Links](#links)
-
 
 ## Criteria
 
@@ -41,19 +39,12 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Built With 
 
-* 
-* 
-*  
-
-
-## Images 
-
-
-
-
-
-
+* Inquirer (npm utility)
+* Express.js
+* Node.js
+* Sequelize
+* PostgreSQL 
 
 ## Links 
 
-Link to Demonstration Video
+Link to Demonstration Video - https://youtu.be/X9aRTza6CBA 
