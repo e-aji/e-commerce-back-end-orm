@@ -2,6 +2,7 @@
 
 ## Description 
 
+The aim of this project is to create a back-end for an e-commerce site. 
 
 ## Table of Contents 
 
