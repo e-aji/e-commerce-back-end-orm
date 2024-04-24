@@ -2,7 +2,7 @@
 
 ## Description 
 
-The aim of this project is to create a back-end for an e-commerce site. This attchached video link demonstrates the workings and functionality of the e-commerce back end that was configured with Express.js API and the use of Sequelize to interact with a PostgreSQL database.  
+The aim of this project is to create a back-end for an e-commerce site. The video link in the links section demonstrates the workings and functionality of the e-commerce back end that was configured with Express.js API and the use of Sequelize to interact with a PostgreSQL database.  
 
 ## Table of Contents 
 
@@ -29,13 +29,13 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Usage 
 
-* 
-* 
-*  
-* 
-* 
-*  
-
+* Use 'pg' and 'sequelize' packages to connect your Express.js API to the PostgreSQL database and the 'dotenv' package to use environment variables to store sensitive data - to do this run 'npm i'
+* Populate the environment variable file with the database name and your Postgres username and password. 
+* Login to Postgres by running 'psql -U postgres' in the terminal and then insert your Postgres password. To read in the commands from the 'schema' file and create the ecommerce database, you will run '\i db/schema.sql'.
+* Once database has been created, exit postgres using '\q' and then run 'node seeds/index.js' in the terminal to populate the database with test data.
+* Run 'npm start' to start the server for the Sequelize models to be synced to the PostgreSQL database  
+* Using Postman, open the API GET routes for products, categories and tags and they appropriate data for each route should be displayed in JSON format. 
+* Then create, update and delete data corresponding to products, categories and tags using the API POST, PUT and DELETE routes.
 
 ## Built With 
 
